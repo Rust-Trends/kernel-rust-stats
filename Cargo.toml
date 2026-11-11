@@ -1,0 +1,23 @@
+[package]
+name = "kernel-rust-stats"
+version = "0.1.0"
+edition = "2021"
+description = "Measures Rust in the Linux kernel, release by release, and writes linux-rust.json"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Rust-Trends/kernel-rust-stats"
+readme = "README.md"
+publish = false
+
+[dependencies]
+syn = { version = "2", default-features = false, features = ["full", "visit", "parsing", "printing"] }
+proc-macro2 = { version = "1.0.80", features = ["span-locations"] }
+tar = { version = "0.4", default-features = false }
+flate2 = "1"
+xz2 = "0.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+debug = false
+strip = true
+incremental = false
