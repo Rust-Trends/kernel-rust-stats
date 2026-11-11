@@ -1,0 +1,468 @@
+{
+  "tag": "v6.11",
+  "version": "6.11",
+  "is_rc": false,
+  "date": "2024-09-15",
+  "loc": {
+    "rust": {
+      "files": 66,
+      "code": 6607,
+      "comments": 6510,
+      "blanks": 1144
+    },
+    "rust_by_area": {
+      "core": {
+        "files": 56,
+        "code": 6003,
+        "comments": 6356,
+        "blanks": 1011
+      },
+      "drivers": {
+        "files": 2,
+        "code": 143,
+        "comments": 29,
+        "blanks": 36
+      },
+      "samples": {
+        "files": 5,
+        "code": 92,
+        "comments": 14,
+        "blanks": 36
+      },
+      "other": {
+        "files": 3,
+        "code": 369,
+        "comments": 111,
+        "blanks": 61
+      },
+      "vendored": {
+        "files": 0,
+        "code": 0,
+        "comments": 0,
+        "blanks": 0
+      }
+    },
+    "c": {
+      "files": 34376,
+      "code": 18172566,
+      "comments": 2735375,
+      "blanks": 3522231
+    },
+    "h": {
+      "files": 25158,
+      "code": 7786754,
+      "comments": 1494699,
+      "blanks": 746238
+    }
+  },
+  "rust_share": 0.000254,
+  "rust_share_first_party": 0.000254,
+  "items": {
+    "fn_free": 86,
+    "fn_impl": 360,
+    "fn_trait": 51,
+    "struct": 68,
+    "enum": 7,
+    "union": 0,
+    "trait": 26,
+    "impl_inherent": 57,
+    "impl_trait": 182,
+    "macro_rules": 46,
+    "proc_macro": 7,
+    "const": 32,
+    "static": 11,
+    "mod": 60,
+    "type_alias": 9,
+    "use": 146,
+    "parse_errors": 0
+  },
+  "items_by_area": {
+    "core": {
+      "fn_free": 77,
+      "fn_impl": 334,
+      "fn_trait": 50,
+      "struct": 59,
+      "enum": 6,
+      "union": 0,
+      "trait": 25,
+      "impl_inherent": 55,
+      "impl_trait": 166,
+      "macro_rules": 46,
+      "proc_macro": 7,
+      "const": 28,
+      "static": 11,
+      "mod": 58,
+      "type_alias": 8,
+      "use": 136,
+      "parse_errors": 0
+    },
+    "drivers": {
+      "fn_free": 1,
+      "fn_impl": 12,
+      "fn_trait": 0,
+      "struct": 5,
+      "enum": 0,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 0,
+      "impl_trait": 5,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 3,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 0,
+      "use": 2,
+      "parse_errors": 0
+    },
+    "samples": {
+      "fn_free": 3,
+      "fn_impl": 4,
+      "fn_trait": 0,
+      "struct": 2,
+      "enum": 0,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 0,
+      "impl_trait": 4,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 1,
+      "static": 0,
+      "mod": 2,
+      "type_alias": 0,
+      "use": 4,
+      "parse_errors": 0
+    },
+    "other": {
+      "fn_free": 5,
+      "fn_impl": 10,
+      "fn_trait": 1,
+      "struct": 2,
+      "enum": 1,
+      "union": 0,
+      "trait": 1,
+      "impl_inherent": 2,
+      "impl_trait": 7,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 0,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 1,
+      "use": 4,
+      "parse_errors": 0
+    },
+    "vendored": {
+      "fn_free": 0,
+      "fn_impl": 0,
+      "fn_trait": 0,
+      "struct": 0,
+      "enum": 0,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 0,
+      "impl_trait": 0,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 0,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 0,
+      "use": 0,
+      "parse_errors": 0
+    }
+  },
+  "unsafe": {
+    "blocks": 274,
+    "blocks_with_safety_comment": 252,
+    "fns": 104,
+    "impls": 76,
+    "traits": 15
+  },
+  "unsafe_by_area": {
+    "core": {
+      "blocks": 274,
+      "blocks_with_safety_comment": 252,
+      "fns": 104,
+      "impls": 76,
+      "traits": 15
+    },
+    "drivers": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "samples": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "other": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "vendored": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    }
+  },
+  "ffi": {
+    "call_sites": 75,
+    "distinct_functions": 68,
+    "top": [
+      {
+        "name": "bindings::_printk",
+        "calls": 4
+      },
+      {
+        "name": "bindings::REFCOUNT_INIT",
+        "calls": 2
+      },
+      {
+        "name": "bindings::blk_mq_rq_to_pdu",
+        "calls": 2
+      },
+      {
+        "name": "bindings::get_device",
+        "calls": 2
+      },
+      {
+        "name": "bindings::refcount_dec_and_test",
+        "calls": 2
+      },
+      {
+        "name": "bindings::BUG",
+        "calls": 1
+      },
+      {
+        "name": "bindings::ERR_PTR",
+        "calls": 1
+      },
+      {
+        "name": "bindings::IS_ERR",
+        "calls": 1
+      },
+      {
+        "name": "bindings::PTR_ERR",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__blk_mq_alloc_disk",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__free_pages",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__msecs_to_jiffies",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__mutex_init",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__spin_lock_init",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__wake_up",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__wake_up_sync",
+        "calls": 1
+      },
+      {
+        "name": "bindings::_copy_from_user",
+        "calls": 1
+      },
+      {
+        "name": "bindings::_copy_to_user",
+        "calls": 1
+      },
+      {
+        "name": "bindings::_phy_start_aneg",
+        "calls": 1
+      },
+      {
+        "name": "bindings::alloc_pages",
+        "calls": 1
+      },
+      {
+        "name": "bindings::blk_mq_end_request",
+        "calls": 1
+      },
+      {
+        "name": "bindings::blk_mq_free_tag_set",
+        "calls": 1
+      },
+      {
+        "name": "bindings::blk_mq_start_request",
+        "calls": 1
+      },
+      {
+        "name": "bindings::copy_from_user",
+        "calls": 1
+      },
+      {
+        "name": "bindings::copy_to_user",
+        "calls": 1
+      }
+    ]
+  },
+  "imports": {
+    "kernel_top": [
+      {
+        "module": "prelude",
+        "files": 4
+      },
+      {
+        "module": "sync",
+        "files": 2
+      },
+      {
+        "module": "alloc",
+        "files": 1
+      },
+      {
+        "module": "block",
+        "files": 1
+      },
+      {
+        "module": "c_str",
+        "files": 1
+      },
+      {
+        "module": "error",
+        "files": 1
+      },
+      {
+        "module": "net",
+        "files": 1
+      },
+      {
+        "module": "new_mutex",
+        "files": 1
+      },
+      {
+        "module": "pr_cont",
+        "files": 1
+      },
+      {
+        "module": "pr_info",
+        "files": 1
+      },
+      {
+        "module": "types",
+        "files": 1
+      },
+      {
+        "module": "uapi",
+        "files": 1
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "ax88796b",
+      "label": "ASIX AX88796B PHY driver",
+      "path": "drivers/net/phy/ax88796b_rust.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 95
+    },
+    {
+      "id": "samples",
+      "label": "Rust samples",
+      "path": "samples/rust/",
+      "area": "samples",
+      "files": 5,
+      "code": 92
+    },
+    {
+      "id": "rnull",
+      "label": "rnull null block driver",
+      "path": "drivers/block/rnull.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 48
+    }
+  ],
+  "crates": [
+    {
+      "name": "macros",
+      "kind": "first_party",
+      "path": "rust/macros/",
+      "code": 1056,
+      "deps": []
+    },
+    {
+      "name": "core",
+      "kind": "toolchain",
+      "path": "",
+      "code": 0,
+      "deps": []
+    },
+    {
+      "name": "compiler_builtins",
+      "kind": "first_party",
+      "path": "rust/compiler_builtins.rs",
+      "code": 48,
+      "deps": []
+    },
+    {
+      "name": "alloc",
+      "kind": "toolchain",
+      "path": "",
+      "code": 0,
+      "deps": []
+    },
+    {
+      "name": "build_error",
+      "kind": "first_party",
+      "path": "rust/build_error.rs",
+      "code": 8,
+      "deps": []
+    },
+    {
+      "name": "bindings",
+      "kind": "first_party",
+      "path": "rust/bindings/",
+      "code": 31,
+      "deps": []
+    },
+    {
+      "name": "uapi",
+      "kind": "first_party",
+      "path": "rust/uapi/",
+      "code": 16,
+      "deps": []
+    },
+    {
+      "name": "kernel",
+      "kind": "first_party",
+      "path": "rust/kernel/",
+      "code": 4844,
+      "deps": [
+        "alloc",
+        "build_error",
+        "macros",
+        "bindings",
+        "uapi"
+      ]
+    }
+  ]
+}

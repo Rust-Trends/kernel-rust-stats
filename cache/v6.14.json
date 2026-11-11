@@ -1,0 +1,548 @@
+{
+  "tag": "v6.14",
+  "version": "6.14",
+  "is_rc": false,
+  "date": "2025-03-24",
+  "loc": {
+    "rust": {
+      "files": 105,
+      "code": 11868,
+      "comments": 11241,
+      "blanks": 2290
+    },
+    "rust_by_area": {
+      "core": {
+        "files": 88,
+        "code": 10079,
+        "comments": 10807,
+        "blanks": 1967
+      },
+      "drivers": {
+        "files": 4,
+        "code": 1004,
+        "comments": 178,
+        "blanks": 138
+      },
+      "samples": {
+        "files": 9,
+        "code": 359,
+        "comments": 128,
+        "blanks": 118
+      },
+      "other": {
+        "files": 4,
+        "code": 426,
+        "comments": 128,
+        "blanks": 67
+      },
+      "vendored": {
+        "files": 0,
+        "code": 0,
+        "comments": 0,
+        "blanks": 0
+      }
+    },
+    "c": {
+      "files": 34994,
+      "code": 18511136,
+      "comments": 2775038,
+      "blanks": 3586924
+    },
+    "h": {
+      "files": 25466,
+      "code": 7836019,
+      "comments": 1504370,
+      "blanks": 753919
+    }
+  },
+  "rust_share": 0.00045,
+  "rust_share_first_party": 0.00045,
+  "items": {
+    "fn_free": 103,
+    "fn_impl": 781,
+    "fn_trait": 83,
+    "struct": 155,
+    "enum": 11,
+    "union": 0,
+    "trait": 42,
+    "impl_inherent": 132,
+    "impl_trait": 302,
+    "macro_rules": 86,
+    "proc_macro": 7,
+    "const": 94,
+    "static": 9,
+    "mod": 94,
+    "type_alias": 30,
+    "use": 260,
+    "parse_errors": 0
+  },
+  "items_by_area": {
+    "core": {
+      "fn_free": 87,
+      "fn_impl": 690,
+      "fn_trait": 83,
+      "struct": 130,
+      "enum": 9,
+      "union": 0,
+      "trait": 42,
+      "impl_inherent": 122,
+      "impl_trait": 274,
+      "macro_rules": 86,
+      "proc_macro": 7,
+      "const": 64,
+      "static": 9,
+      "mod": 91,
+      "type_alias": 28,
+      "use": 233,
+      "parse_errors": 0
+    },
+    "drivers": {
+      "fn_free": 4,
+      "fn_impl": 61,
+      "fn_trait": 0,
+      "struct": 12,
+      "enum": 1,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 4,
+      "impl_trait": 8,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 26,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 0,
+      "use": 10,
+      "parse_errors": 0
+    },
+    "samples": {
+      "fn_free": 5,
+      "fn_impl": 17,
+      "fn_trait": 0,
+      "struct": 11,
+      "enum": 0,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 4,
+      "impl_trait": 12,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 4,
+      "static": 0,
+      "mod": 3,
+      "type_alias": 1,
+      "use": 11,
+      "parse_errors": 0
+    },
+    "other": {
+      "fn_free": 7,
+      "fn_impl": 13,
+      "fn_trait": 0,
+      "struct": 2,
+      "enum": 1,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 2,
+      "impl_trait": 8,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 0,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 1,
+      "use": 6,
+      "parse_errors": 0
+    },
+    "vendored": {
+      "fn_free": 0,
+      "fn_impl": 0,
+      "fn_trait": 0,
+      "struct": 0,
+      "enum": 0,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 0,
+      "impl_trait": 0,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 0,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 0,
+      "use": 0,
+      "parse_errors": 0
+    }
+  },
+  "unsafe": {
+    "blocks": 591,
+    "blocks_with_safety_comment": 540,
+    "fns": 181,
+    "impls": 102,
+    "traits": 22
+  },
+  "unsafe_by_area": {
+    "core": {
+      "blocks": 586,
+      "blocks_with_safety_comment": 535,
+      "fns": 180,
+      "impls": 102,
+      "traits": 22
+    },
+    "drivers": {
+      "blocks": 3,
+      "blocks_with_safety_comment": 3,
+      "fns": 1,
+      "impls": 0,
+      "traits": 0
+    },
+    "samples": {
+      "blocks": 1,
+      "blocks_with_safety_comment": 1,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "other": {
+      "blocks": 1,
+      "blocks_with_safety_comment": 1,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "vendored": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    }
+  },
+  "ffi": {
+    "call_sites": 149,
+    "distinct_functions": 134,
+    "top": [
+      {
+        "name": "bindings::_printk",
+        "calls": 4
+      },
+      {
+        "name": "bindings::rb_erase",
+        "calls": 3
+      },
+      {
+        "name": "bindings::rb_first",
+        "calls": 3
+      },
+      {
+        "name": "bindings::REFCOUNT_INIT",
+        "calls": 2
+      },
+      {
+        "name": "bindings::blk_mq_rq_to_pdu",
+        "calls": 2
+      },
+      {
+        "name": "bindings::fput",
+        "calls": 2
+      },
+      {
+        "name": "bindings::get_file",
+        "calls": 2
+      },
+      {
+        "name": "bindings::pci_release_region",
+        "calls": 2
+      },
+      {
+        "name": "bindings::rb_next",
+        "calls": 2
+      },
+      {
+        "name": "bindings::refcount_dec_and_test",
+        "calls": 2
+      },
+      {
+        "name": "bindings::synchronize_rcu",
+        "calls": 2
+      },
+      {
+        "name": "bindings::BUG",
+        "calls": 1
+      },
+      {
+        "name": "bindings::ERR_PTR",
+        "calls": 1
+      },
+      {
+        "name": "bindings::IS_ERR",
+        "calls": 1
+      },
+      {
+        "name": "bindings::PTR_ERR",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__blk_mq_alloc_disk",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__free_pages",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__msecs_to_jiffies",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__mutex_init",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__pci_register_driver",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__platform_driver_register",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__spin_lock_init",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__wake_up",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__wake_up_pollfree",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__wake_up_sync",
+        "calls": 1
+      }
+    ]
+  },
+  "imports": {
+    "kernel_top": [
+      {
+        "module": "prelude",
+        "files": 10
+      },
+      {
+        "module": "c_str",
+        "files": 6
+      },
+      {
+        "module": "sync",
+        "files": 3
+      },
+      {
+        "module": "error",
+        "files": 2
+      },
+      {
+        "module": "net",
+        "files": 2
+      },
+      {
+        "module": "new_mutex",
+        "files": 2
+      },
+      {
+        "module": "types",
+        "files": 2
+      },
+      {
+        "module": "Module",
+        "files": 1
+      },
+      {
+        "module": "alloc",
+        "files": 1
+      },
+      {
+        "module": "bindings",
+        "files": 1
+      },
+      {
+        "module": "block",
+        "files": 1
+      },
+      {
+        "module": "device",
+        "files": 1
+      },
+      {
+        "module": "devres",
+        "files": 1
+      },
+      {
+        "module": "faux",
+        "files": 1
+      },
+      {
+        "module": "ffi",
+        "files": 1
+      },
+      {
+        "module": "firmware",
+        "files": 1
+      },
+      {
+        "module": "fs",
+        "files": 1
+      },
+      {
+        "module": "ioctl",
+        "files": 1
+      },
+      {
+        "module": "miscdevice",
+        "files": 1
+      },
+      {
+        "module": "of",
+        "files": 1
+      },
+      {
+        "module": "pci",
+        "files": 1
+      },
+      {
+        "module": "platform",
+        "files": 1
+      },
+      {
+        "module": "pr_cont",
+        "files": 1
+      },
+      {
+        "module": "pr_info",
+        "files": 1
+      },
+      {
+        "module": "sizes",
+        "files": 1
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "drm-panic-qr",
+      "label": "DRM panic QR code generator",
+      "path": "drivers/gpu/drm/drm_panic_qr.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 793
+    },
+    {
+      "id": "samples",
+      "label": "Rust samples",
+      "path": "samples/rust/",
+      "area": "samples",
+      "files": 9,
+      "code": 359
+    },
+    {
+      "id": "ax88796b",
+      "label": "ASIX AX88796B PHY driver",
+      "path": "drivers/net/phy/ax88796b_rust.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 94
+    },
+    {
+      "id": "qt2025",
+      "label": "Marvell QT2025 PHY driver",
+      "path": "drivers/net/phy/qt2025.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 63
+    },
+    {
+      "id": "rnull",
+      "label": "rnull null block driver",
+      "path": "drivers/block/rnull.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 54
+    },
+    {
+      "id": "kasan-test",
+      "label": "KASAN Rust test",
+      "path": "mm/kasan/kasan_test_rust.rs",
+      "area": "other",
+      "files": 1,
+      "code": 12
+    }
+  ],
+  "crates": [
+    {
+      "name": "macros",
+      "kind": "first_party",
+      "path": "rust/macros/",
+      "code": 1076,
+      "deps": []
+    },
+    {
+      "name": "core",
+      "kind": "toolchain",
+      "path": "",
+      "code": 0,
+      "deps": []
+    },
+    {
+      "name": "compiler_builtins",
+      "kind": "first_party",
+      "path": "rust/compiler_builtins.rs",
+      "code": 48,
+      "deps": []
+    },
+    {
+      "name": "build_error",
+      "kind": "first_party",
+      "path": "rust/build_error.rs",
+      "code": 8,
+      "deps": []
+    },
+    {
+      "name": "ffi",
+      "kind": "first_party",
+      "path": "rust/ffi.rs",
+      "code": 24,
+      "deps": []
+    },
+    {
+      "name": "bindings",
+      "kind": "first_party",
+      "path": "rust/bindings/",
+      "code": 35,
+      "deps": [
+        "ffi"
+      ]
+    },
+    {
+      "name": "uapi",
+      "kind": "first_party",
+      "path": "rust/uapi/",
+      "code": 20,
+      "deps": [
+        "ffi"
+      ]
+    },
+    {
+      "name": "kernel",
+      "kind": "first_party",
+      "path": "rust/kernel/",
+      "code": 8868,
+      "deps": [
+        "ffi",
+        "build_error",
+        "macros",
+        "bindings",
+        "uapi"
+      ]
+    }
+  ]
+}

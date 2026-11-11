@@ -1,0 +1,678 @@
+{
+  "tag": "v7.4-rc2",
+  "version": "7.4-rc2",
+  "is_rc": true,
+  "date": "2026-11-09",
+  "loc": {
+    "rust": {
+      "files": 568,
+      "code": 132334,
+      "comments": 59877,
+      "blanks": 18311
+    },
+    "rust_by_area": {
+      "core": {
+        "files": 203,
+        "code": 35570,
+        "comments": 30455,
+        "blanks": 7102
+      },
+      "drivers": {
+        "files": 129,
+        "code": 26445,
+        "comments": 6461,
+        "blanks": 4708
+      },
+      "samples": {
+        "files": 19,
+        "code": 1551,
+        "comments": 347,
+        "blanks": 327
+      },
+      "other": {
+        "files": 6,
+        "code": 544,
+        "comments": 150,
+        "blanks": 86
+      },
+      "vendored": {
+        "files": 211,
+        "code": 68224,
+        "comments": 22464,
+        "blanks": 6088
+      }
+    },
+    "c": {
+      "files": 37763,
+      "code": 20131125,
+      "comments": 3005357,
+      "blanks": 3894757
+    },
+    "h": {
+      "files": 27281,
+      "code": 8712204,
+      "comments": 1662001,
+      "blanks": 803941
+    }
+  },
+  "rust_share": 0.004567,
+  "rust_share_first_party": 0.002218,
+  "items": {
+    "fn_free": 1773,
+    "fn_impl": 6077,
+    "fn_trait": 1113,
+    "struct": 1131,
+    "enum": 193,
+    "union": 7,
+    "trait": 301,
+    "impl_inherent": 999,
+    "impl_trait": 3344,
+    "macro_rules": 374,
+    "proc_macro": 21,
+    "const": 779,
+    "static": 50,
+    "mod": 695,
+    "type_alias": 138,
+    "use": 2158,
+    "parse_errors": 0
+  },
+  "items_by_area": {
+    "core": {
+      "fn_free": 257,
+      "fn_impl": 2270,
+      "fn_trait": 285,
+      "struct": 490,
+      "enum": 49,
+      "union": 1,
+      "trait": 164,
+      "impl_inherent": 414,
+      "impl_trait": 1091,
+      "macro_rules": 180,
+      "proc_macro": 16,
+      "const": 156,
+      "static": 11,
+      "mod": 239,
+      "type_alias": 50,
+      "use": 620,
+      "parse_errors": 0
+    },
+    "drivers": {
+      "fn_free": 142,
+      "fn_impl": 1357,
+      "fn_trait": 98,
+      "struct": 381,
+      "enum": 66,
+      "union": 5,
+      "trait": 28,
+      "impl_inherent": 257,
+      "impl_trait": 337,
+      "macro_rules": 13,
+      "proc_macro": 0,
+      "const": 498,
+      "static": 14,
+      "mod": 137,
+      "type_alias": 50,
+      "use": 388,
+      "parse_errors": 0
+    },
+    "samples": {
+      "fn_free": 8,
+      "fn_impl": 61,
+      "fn_trait": 0,
+      "struct": 35,
+      "enum": 0,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 12,
+      "impl_trait": 37,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 13,
+      "static": 0,
+      "mod": 4,
+      "type_alias": 1,
+      "use": 29,
+      "parse_errors": 0
+    },
+    "other": {
+      "fn_free": 11,
+      "fn_impl": 14,
+      "fn_trait": 0,
+      "struct": 4,
+      "enum": 1,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 2,
+      "impl_trait": 9,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 2,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 1,
+      "use": 15,
+      "parse_errors": 0
+    },
+    "vendored": {
+      "fn_free": 1355,
+      "fn_impl": 2375,
+      "fn_trait": 730,
+      "struct": 221,
+      "enum": 77,
+      "union": 1,
+      "trait": 109,
+      "impl_inherent": 314,
+      "impl_trait": 1870,
+      "macro_rules": 181,
+      "proc_macro": 5,
+      "const": 110,
+      "static": 25,
+      "mod": 315,
+      "type_alias": 36,
+      "use": 1106,
+      "parse_errors": 0
+    }
+  },
+  "unsafe": {
+    "blocks": 2303,
+    "blocks_with_safety_comment": 1861,
+    "fns": 562,
+    "impls": 539,
+    "traits": 69
+  },
+  "unsafe_by_area": {
+    "core": {
+      "blocks": 1808,
+      "blocks_with_safety_comment": 1577,
+      "fns": 461,
+      "impls": 387,
+      "traits": 40
+    },
+    "drivers": {
+      "blocks": 186,
+      "blocks_with_safety_comment": 159,
+      "fns": 38,
+      "impls": 72,
+      "traits": 0
+    },
+    "samples": {
+      "blocks": 2,
+      "blocks_with_safety_comment": 2,
+      "fns": 0,
+      "impls": 2,
+      "traits": 0
+    },
+    "other": {
+      "blocks": 2,
+      "blocks_with_safety_comment": 2,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "vendored": {
+      "blocks": 305,
+      "blocks_with_safety_comment": 121,
+      "fns": 63,
+      "impls": 78,
+      "traits": 29
+    }
+  },
+  "ffi": {
+    "call_sites": 591,
+    "distinct_functions": 521,
+    "top": [
+      {
+        "name": "bindings::get_device",
+        "calls": 5
+      },
+      {
+        "name": "bindings::_printk",
+        "calls": 4
+      },
+      {
+        "name": "bindings::put_device",
+        "calls": 4
+      },
+      {
+        "name": "bindings::rb_first",
+        "calls": 4
+      },
+      {
+        "name": "bindings::dma_alloc_attrs",
+        "calls": 3
+      },
+      {
+        "name": "bindings::dma_fence_put",
+        "calls": 3
+      },
+      {
+        "name": "bindings::drm_gpuva_link",
+        "calls": 3
+      },
+      {
+        "name": "bindings::fput",
+        "calls": 3
+      },
+      {
+        "name": "bindings::get_file",
+        "calls": 3
+      },
+      {
+        "name": "bindings::irqreturn_t",
+        "calls": 3
+      },
+      {
+        "name": "bindings::pwmchip_get_drvdata",
+        "calls": 3
+      },
+      {
+        "name": "bindings::rb_erase",
+        "calls": 3
+      },
+      {
+        "name": "bindings::rb_next",
+        "calls": 3
+      },
+      {
+        "name": "bindings::spin_unlock",
+        "calls": 3
+      },
+      {
+        "name": "bindings::__spin_lock_init",
+        "calls": 2
+      },
+      {
+        "name": "bindings::__wake_up_pollfree",
+        "calls": 2
+      },
+      {
+        "name": "bindings::auxiliary_device_uninit",
+        "calls": 2
+      },
+      {
+        "name": "bindings::blk_mq_rq_to_pdu",
+        "calls": 2
+      },
+      {
+        "name": "bindings::debugfs_create_dir",
+        "calls": 2
+      },
+      {
+        "name": "bindings::debugfs_create_file_full",
+        "calls": 2
+      },
+      {
+        "name": "bindings::dev_get_drvdata",
+        "calls": 2
+      },
+      {
+        "name": "bindings::dev_set_drvdata",
+        "calls": 2
+      },
+      {
+        "name": "bindings::dma_fence_set_error",
+        "calls": 2
+      },
+      {
+        "name": "bindings::dma_fence_signal_locked",
+        "calls": 2
+      },
+      {
+        "name": "bindings::dma_fence_test_signaled_flag",
+        "calls": 2
+      }
+    ]
+  },
+  "imports": {
+    "kernel_top": [
+      {
+        "module": "prelude",
+        "files": 121
+      },
+      {
+        "module": "io",
+        "files": 55
+      },
+      {
+        "module": "device",
+        "files": 51
+      },
+      {
+        "module": "sync",
+        "files": 41
+      },
+      {
+        "module": "sizes",
+        "files": 29
+      },
+      {
+        "module": "time",
+        "files": 22
+      },
+      {
+        "module": "dma",
+        "files": 21
+      },
+      {
+        "module": "num",
+        "files": 17
+      },
+      {
+        "module": "pci",
+        "files": 15
+      },
+      {
+        "module": "transmute",
+        "files": 15
+      },
+      {
+        "module": "new_mutex",
+        "files": 13
+      },
+      {
+        "module": "str",
+        "files": 13
+      },
+      {
+        "module": "uapi",
+        "files": 13
+      },
+      {
+        "module": "ptr",
+        "files": 12
+      },
+      {
+        "module": "seq_file",
+        "files": 11
+      },
+      {
+        "module": "bindings",
+        "files": 10
+      },
+      {
+        "module": "seq_print",
+        "files": 10
+      },
+      {
+        "module": "task",
+        "files": 10
+      },
+      {
+        "module": "of",
+        "files": 9
+      },
+      {
+        "module": "page",
+        "files": 9
+      },
+      {
+        "module": "types",
+        "files": 9
+      },
+      {
+        "module": "uaccess",
+        "files": 9
+      },
+      {
+        "module": "drm",
+        "files": 8
+      },
+      {
+        "module": "error",
+        "files": 8
+      },
+      {
+        "module": "bitfield",
+        "files": 7
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "nova-core",
+      "label": "NVIDIA nova-core (GSP)",
+      "path": "drivers/gpu/nova-core/",
+      "area": "drivers",
+      "files": 86,
+      "code": 13168
+    },
+    {
+      "id": "binder",
+      "label": "Android Binder IPC driver",
+      "path": "drivers/android/binder/",
+      "area": "drivers",
+      "files": 20,
+      "code": 7748
+    },
+    {
+      "id": "tyr",
+      "label": "Tyr (Arm Mali GPU DRM driver)",
+      "path": "drivers/gpu/drm/tyr/",
+      "area": "drivers",
+      "files": 12,
+      "code": 3585
+    },
+    {
+      "id": "samples",
+      "label": "Rust samples",
+      "path": "samples/rust/",
+      "area": "samples",
+      "files": 19,
+      "code": 1551
+    },
+    {
+      "id": "drm-panic-qr",
+      "label": "DRM panic QR code generator",
+      "path": "drivers/gpu/drm/drm_panic_helper_qr.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 787
+    },
+    {
+      "id": "rnull",
+      "label": "rnull null block driver",
+      "path": "drivers/block/rnull/",
+      "area": "drivers",
+      "files": 2,
+      "code": 313
+    },
+    {
+      "id": "pwm-th1520",
+      "label": "T-HEAD TH1520 PWM driver",
+      "path": "drivers/pwm/pwm_th1520.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 275
+    },
+    {
+      "id": "nova-drm",
+      "label": "NVIDIA nova DRM driver",
+      "path": "drivers/gpu/drm/nova/",
+      "area": "drivers",
+      "files": 4,
+      "code": 243
+    },
+    {
+      "id": "rcpufreq-dt",
+      "label": "Device-tree cpufreq driver (Rust)",
+      "path": "drivers/cpufreq/rcpufreq_dt.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 163
+    },
+    {
+      "id": "ax88796b",
+      "label": "ASIX AX88796B PHY driver",
+      "path": "drivers/net/phy/ax88796b_rust.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 93
+    },
+    {
+      "id": "find-bit-benchmark",
+      "label": "find_bit benchmark (Rust)",
+      "path": "lib/find_bit_benchmark_rust.rs",
+      "area": "other",
+      "files": 1,
+      "code": 79
+    },
+    {
+      "id": "qt2025",
+      "label": "Marvell QT2025 PHY driver",
+      "path": "drivers/net/phy/qt2025.rs",
+      "area": "drivers",
+      "files": 1,
+      "code": 70
+    },
+    {
+      "id": "kasan-test",
+      "label": "KASAN Rust test",
+      "path": "mm/kasan/kasan_test_rust.rs",
+      "area": "other",
+      "files": 1,
+      "code": 12
+    }
+  ],
+  "crates": [
+    {
+      "name": "proc_macro2",
+      "kind": "vendored",
+      "path": "rust/proc-macro2/",
+      "code": 3838,
+      "deps": []
+    },
+    {
+      "name": "quote",
+      "kind": "vendored",
+      "path": "rust/quote/",
+      "code": 1460,
+      "deps": [
+        "proc_macro2"
+      ]
+    },
+    {
+      "name": "syn",
+      "kind": "vendored",
+      "path": "rust/syn/",
+      "code": 41716,
+      "deps": [
+        "proc_macro2",
+        "quote"
+      ]
+    },
+    {
+      "name": "zerocopy_derive",
+      "kind": "vendored",
+      "path": "rust/zerocopy-derive/",
+      "code": 3374,
+      "deps": [
+        "proc_macro2",
+        "quote",
+        "syn"
+      ]
+    },
+    {
+      "name": "macros",
+      "kind": "first_party",
+      "path": "rust/macros/",
+      "code": 1483,
+      "deps": [
+        "proc_macro2",
+        "quote",
+        "syn"
+      ]
+    },
+    {
+      "name": "pin_init_internal",
+      "kind": "first_party",
+      "path": "rust/pin-init/internal/src/",
+      "code": 3073,
+      "deps": [
+        "proc_macro2",
+        "quote",
+        "syn"
+      ]
+    },
+    {
+      "name": "core",
+      "kind": "toolchain",
+      "path": "",
+      "code": 0,
+      "deps": []
+    },
+    {
+      "name": "compiler_builtins",
+      "kind": "first_party",
+      "path": "rust/compiler_builtins.rs",
+      "code": 74,
+      "deps": []
+    },
+    {
+      "name": "zerocopy",
+      "kind": "vendored",
+      "path": "rust/zerocopy/src/",
+      "code": 16817,
+      "deps": []
+    },
+    {
+      "name": "pin_init",
+      "kind": "first_party",
+      "path": "rust/pin-init/src/",
+      "code": 968,
+      "deps": [
+        "pin_init_internal",
+        "macros"
+      ]
+    },
+    {
+      "name": "build_error",
+      "kind": "first_party",
+      "path": "rust/build_error.rs",
+      "code": 8,
+      "deps": []
+    },
+    {
+      "name": "ffi",
+      "kind": "first_party",
+      "path": "rust/ffi.rs",
+      "code": 25,
+      "deps": []
+    },
+    {
+      "name": "bindings",
+      "kind": "first_party",
+      "path": "rust/bindings/",
+      "code": 78,
+      "deps": [
+        "ffi",
+        "pin_init"
+      ]
+    },
+    {
+      "name": "uapi",
+      "kind": "first_party",
+      "path": "rust/uapi/",
+      "code": 29,
+      "deps": [
+        "ffi",
+        "pin_init"
+      ]
+    },
+    {
+      "name": "kernel",
+      "kind": "first_party",
+      "path": "rust/kernel/",
+      "code": 29139,
+      "deps": [
+        "ffi",
+        "pin_init",
+        "build_error",
+        "macros",
+        "bindings",
+        "uapi",
+        "zerocopy",
+        "zerocopy_derive"
+      ]
+    }
+  ]
+}

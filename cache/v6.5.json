@@ -1,0 +1,416 @@
+{
+  "tag": "v6.5",
+  "version": "6.5",
+  "is_rc": false,
+  "date": "2023-08-27",
+  "loc": {
+    "rust": {
+      "files": 55,
+      "code": 8104,
+      "comments": 8509,
+      "blanks": 1321
+    },
+    "rust_by_area": {
+      "core": {
+        "files": 35,
+        "code": 3557,
+        "comments": 3827,
+        "blanks": 572
+      },
+      "drivers": {
+        "files": 0,
+        "code": 0,
+        "comments": 0,
+        "blanks": 0
+      },
+      "samples": {
+        "files": 5,
+        "code": 92,
+        "comments": 14,
+        "blanks": 36
+      },
+      "other": {
+        "files": 1,
+        "code": 132,
+        "comments": 22,
+        "blanks": 28
+      },
+      "vendored": {
+        "files": 14,
+        "code": 4323,
+        "comments": 4646,
+        "blanks": 685
+      }
+    },
+    "c": {
+      "files": 32709,
+      "code": 17220719,
+      "comments": 2614731,
+      "blanks": 3329199
+    },
+    "h": {
+      "files": 23856,
+      "code": 7125055,
+      "comments": 1389869,
+      "blanks": 712922
+    }
+  },
+  "rust_share": 0.000333,
+  "rust_share_first_party": 0.000155,
+  "items": {
+    "fn_free": 73,
+    "fn_impl": 404,
+    "fn_trait": 34,
+    "struct": 49,
+    "enum": 5,
+    "union": 0,
+    "trait": 27,
+    "impl_inherent": 49,
+    "impl_trait": 205,
+    "macro_rules": 45,
+    "proc_macro": 5,
+    "const": 8,
+    "static": 10,
+    "mod": 80,
+    "type_alias": 7,
+    "use": 215,
+    "parse_errors": 2
+  },
+  "items_by_area": {
+    "core": {
+      "fn_free": 53,
+      "fn_impl": 163,
+      "fn_trait": 22,
+      "struct": 31,
+      "enum": 2,
+      "union": 0,
+      "trait": 15,
+      "impl_inherent": 30,
+      "impl_trait": 95,
+      "macro_rules": 38,
+      "proc_macro": 5,
+      "const": 7,
+      "static": 10,
+      "mod": 35,
+      "type_alias": 6,
+      "use": 88,
+      "parse_errors": 0
+    },
+    "drivers": {
+      "fn_free": 0,
+      "fn_impl": 0,
+      "fn_trait": 0,
+      "struct": 0,
+      "enum": 0,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 0,
+      "impl_trait": 0,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 0,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 0,
+      "use": 0,
+      "parse_errors": 0
+    },
+    "samples": {
+      "fn_free": 3,
+      "fn_impl": 4,
+      "fn_trait": 0,
+      "struct": 2,
+      "enum": 0,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 0,
+      "impl_trait": 4,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 1,
+      "static": 0,
+      "mod": 2,
+      "type_alias": 0,
+      "use": 4,
+      "parse_errors": 0
+    },
+    "other": {
+      "fn_free": 1,
+      "fn_impl": 10,
+      "fn_trait": 1,
+      "struct": 2,
+      "enum": 1,
+      "union": 0,
+      "trait": 1,
+      "impl_inherent": 2,
+      "impl_trait": 7,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 0,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 1,
+      "use": 1,
+      "parse_errors": 0
+    },
+    "vendored": {
+      "fn_free": 16,
+      "fn_impl": 227,
+      "fn_trait": 11,
+      "struct": 14,
+      "enum": 2,
+      "union": 0,
+      "trait": 11,
+      "impl_inherent": 17,
+      "impl_trait": 99,
+      "macro_rules": 7,
+      "proc_macro": 0,
+      "const": 0,
+      "static": 0,
+      "mod": 43,
+      "type_alias": 0,
+      "use": 122,
+      "parse_errors": 2
+    }
+  },
+  "unsafe": {
+    "blocks": 229,
+    "blocks_with_safety_comment": 131,
+    "fns": 65,
+    "impls": 44,
+    "traits": 11
+  },
+  "unsafe_by_area": {
+    "core": {
+      "blocks": 118,
+      "blocks_with_safety_comment": 108,
+      "fns": 52,
+      "impls": 24,
+      "traits": 10
+    },
+    "drivers": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "samples": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "other": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "vendored": {
+      "blocks": 111,
+      "blocks_with_safety_comment": 23,
+      "fns": 13,
+      "impls": 20,
+      "traits": 1
+    }
+  },
+  "ffi": {
+    "call_sites": 32,
+    "distinct_functions": 29,
+    "top": [
+      {
+        "name": "bindings::_printk",
+        "calls": 2
+      },
+      {
+        "name": "bindings::kfree",
+        "calls": 2
+      },
+      {
+        "name": "bindings::krealloc",
+        "calls": 2
+      },
+      {
+        "name": "bindings::BUG",
+        "calls": 1
+      },
+      {
+        "name": "bindings::ERR_PTR",
+        "calls": 1
+      },
+      {
+        "name": "bindings::IS_ERR",
+        "calls": 1
+      },
+      {
+        "name": "bindings::PTR_ERR",
+        "calls": 1
+      },
+      {
+        "name": "bindings::REFCOUNT_INIT",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__mutex_init",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__spin_lock_init",
+        "calls": 1
+      },
+      {
+        "name": "bindings::__wake_up",
+        "calls": 1
+      },
+      {
+        "name": "bindings::errname",
+        "calls": 1
+      },
+      {
+        "name": "bindings::finish_wait",
+        "calls": 1
+      },
+      {
+        "name": "bindings::get_current",
+        "calls": 1
+      },
+      {
+        "name": "bindings::get_task_struct",
+        "calls": 1
+      },
+      {
+        "name": "bindings::init_wait",
+        "calls": 1
+      },
+      {
+        "name": "bindings::memchr",
+        "calls": 1
+      },
+      {
+        "name": "bindings::mutex_lock",
+        "calls": 1
+      },
+      {
+        "name": "bindings::mutex_unlock",
+        "calls": 1
+      },
+      {
+        "name": "bindings::prepare_to_wait_exclusive",
+        "calls": 1
+      },
+      {
+        "name": "bindings::put_task_struct",
+        "calls": 1
+      },
+      {
+        "name": "bindings::refcount_dec_and_test",
+        "calls": 1
+      },
+      {
+        "name": "bindings::refcount_inc",
+        "calls": 1
+      },
+      {
+        "name": "bindings::schedule",
+        "calls": 1
+      },
+      {
+        "name": "bindings::signal_pending",
+        "calls": 1
+      }
+    ]
+  },
+  "imports": {
+    "kernel_top": [
+      {
+        "module": "prelude",
+        "files": 2
+      },
+      {
+        "module": "pr_cont",
+        "files": 1
+      },
+      {
+        "module": "sync",
+        "files": 1
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "samples",
+      "label": "Rust samples",
+      "path": "samples/rust/",
+      "area": "samples",
+      "files": 5,
+      "code": 92
+    }
+  ],
+  "crates": [
+    {
+      "name": "macros",
+      "kind": "first_party",
+      "path": "rust/macros/",
+      "code": 785,
+      "deps": []
+    },
+    {
+      "name": "core",
+      "kind": "toolchain",
+      "path": "",
+      "code": 0,
+      "deps": []
+    },
+    {
+      "name": "compiler_builtins",
+      "kind": "first_party",
+      "path": "rust/compiler_builtins.rs",
+      "code": 37,
+      "deps": []
+    },
+    {
+      "name": "alloc",
+      "kind": "vendored",
+      "path": "rust/alloc/",
+      "code": 4323,
+      "deps": []
+    },
+    {
+      "name": "build_error",
+      "kind": "first_party",
+      "path": "rust/build_error.rs",
+      "code": 8,
+      "deps": []
+    },
+    {
+      "name": "bindings",
+      "kind": "first_party",
+      "path": "rust/bindings/",
+      "code": 32,
+      "deps": []
+    },
+    {
+      "name": "uapi",
+      "kind": "first_party",
+      "path": "rust/uapi/",
+      "code": 15,
+      "deps": []
+    },
+    {
+      "name": "kernel",
+      "kind": "first_party",
+      "path": "rust/kernel/",
+      "code": 2680,
+      "deps": [
+        "alloc",
+        "build_error",
+        "macros",
+        "bindings",
+        "uapi"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "tag": "v6.3",
+  "version": "6.3",
+  "is_rc": false,
+  "date": "2023-04-23",
+  "loc": {
+    "rust": {
+      "files": 38,
+      "code": 5565,
+      "comments": 5681,
+      "blanks": 968
+    },
+    "rust_by_area": {
+      "core": {
+        "files": 20,
+        "code": 1464,
+        "comments": 1429,
+        "blanks": 294
+      },
+      "drivers": {
+        "files": 0,
+        "code": 0,
+        "comments": 0,
+        "blanks": 0
+      },
+      "samples": {
+        "files": 5,
+        "code": 79,
+        "comments": 10,
+        "blanks": 27
+      },
+      "other": {
+        "files": 1,
+        "code": 132,
+        "comments": 22,
+        "blanks": 28
+      },
+      "vendored": {
+        "files": 12,
+        "code": 3890,
+        "comments": 4220,
+        "blanks": 619
+      }
+    },
+    "c": {
+      "files": 32220,
+      "code": 16915156,
+      "comments": 2583753,
+      "blanks": 3276835
+    },
+    "h": {
+      "files": 23573,
+      "code": 6954497,
+      "comments": 1360003,
+      "blanks": 704938
+    }
+  },
+  "rust_share": 0.000233,
+  "rust_share_first_party": 0.00007,
+  "items": {
+    "fn_free": 44,
+    "fn_impl": 197,
+    "fn_trait": 11,
+    "struct": 31,
+    "enum": 5,
+    "union": 0,
+    "trait": 10,
+    "impl_inherent": 27,
+    "impl_trait": 112,
+    "macro_rules": 24,
+    "proc_macro": 3,
+    "const": 10,
+    "static": 10,
+    "mod": 49,
+    "type_alias": 3,
+    "use": 134,
+    "parse_errors": 3
+  },
+  "items_by_area": {
+    "core": {
+      "fn_free": 28,
+      "fn_impl": 83,
+      "fn_trait": 5,
+      "struct": 15,
+      "enum": 2,
+      "union": 0,
+      "trait": 3,
+      "impl_inherent": 16,
+      "impl_trait": 50,
+      "macro_rules": 20,
+      "proc_macro": 3,
+      "const": 7,
+      "static": 10,
+      "mod": 21,
+      "type_alias": 2,
+      "use": 49,
+      "parse_errors": 0
+    },
+    "drivers": {
+      "fn_free": 0,
+      "fn_impl": 0,
+      "fn_trait": 0,
+      "struct": 0,
+      "enum": 0,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 0,
+      "impl_trait": 0,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 0,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 0,
+      "use": 0,
+      "parse_errors": 0
+    },
+    "samples": {
+      "fn_free": 2,
+      "fn_impl": 4,
+      "fn_trait": 0,
+      "struct": 2,
+      "enum": 0,
+      "union": 0,
+      "trait": 0,
+      "impl_inherent": 0,
+      "impl_trait": 4,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 1,
+      "static": 0,
+      "mod": 2,
+      "type_alias": 0,
+      "use": 3,
+      "parse_errors": 0
+    },
+    "other": {
+      "fn_free": 1,
+      "fn_impl": 10,
+      "fn_trait": 1,
+      "struct": 2,
+      "enum": 1,
+      "union": 0,
+      "trait": 1,
+      "impl_inherent": 2,
+      "impl_trait": 7,
+      "macro_rules": 0,
+      "proc_macro": 0,
+      "const": 0,
+      "static": 0,
+      "mod": 0,
+      "type_alias": 1,
+      "use": 1,
+      "parse_errors": 0
+    },
+    "vendored": {
+      "fn_free": 13,
+      "fn_impl": 100,
+      "fn_trait": 5,
+      "struct": 12,
+      "enum": 2,
+      "union": 0,
+      "trait": 6,
+      "impl_inherent": 9,
+      "impl_trait": 51,
+      "macro_rules": 4,
+      "proc_macro": 0,
+      "const": 2,
+      "static": 0,
+      "mod": 26,
+      "type_alias": 0,
+      "use": 81,
+      "parse_errors": 3
+    }
+  },
+  "unsafe": {
+    "blocks": 103,
+    "blocks_with_safety_comment": 43,
+    "fns": 29,
+    "impls": 21,
+    "traits": 1
+  },
+  "unsafe_by_area": {
+    "core": {
+      "blocks": 46,
+      "blocks_with_safety_comment": 34,
+      "fns": 22,
+      "impls": 4,
+      "traits": 0
+    },
+    "drivers": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "samples": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "other": {
+      "blocks": 0,
+      "blocks_with_safety_comment": 0,
+      "fns": 0,
+      "impls": 0,
+      "traits": 0
+    },
+    "vendored": {
+      "blocks": 57,
+      "blocks_with_safety_comment": 9,
+      "fns": 7,
+      "impls": 17,
+      "traits": 1
+    }
+  },
+  "ffi": {
+    "call_sites": 14,
+    "distinct_functions": 9,
+    "top": [
+      {
+        "name": "bindings::krealloc",
+        "calls": 4
+      },
+      {
+        "name": "bindings::_printk",
+        "calls": 2
+      },
+      {
+        "name": "bindings::kfree",
+        "calls": 2
+      },
+      {
+        "name": "bindings::BUG",
+        "calls": 1
+      },
+      {
+        "name": "bindings::REFCOUNT_INIT",
+        "calls": 1
+      },
+      {
+        "name": "bindings::memchr",
+        "calls": 1
+      },
+      {
+        "name": "bindings::refcount_dec_and_test",
+        "calls": 1
+      },
+      {
+        "name": "bindings::refcount_inc",
+        "calls": 1
+      },
+      {
+        "name": "bindings::strlen",
+        "calls": 1
+      }
+    ]
+  },
+  "imports": {
+    "kernel_top": [
+      {
+        "module": "prelude",
+        "files": 2
+      },
+      {
+        "module": "pr_cont",
+        "files": 1
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "samples",
+      "label": "Rust samples",
+      "path": "samples/rust/",
+      "area": "samples",
+      "files": 5,
+      "code": 79
+    }
+  ],
+  "crates": [
+    {
+      "name": "macros",
+      "kind": "first_party",
+      "path": "rust/macros/",
+      "code": 416,
+      "deps": []
+    },
+    {
+      "name": "core",
+      "kind": "toolchain",
+      "path": "",
+      "code": 0,
+      "deps": []
+    },
+    {
+      "name": "compiler_builtins",
+      "kind": "first_party",
+      "path": "rust/compiler_builtins.rs",
+      "code": 37,
+      "deps": []
+    },
+    {
+      "name": "alloc",
+      "kind": "vendored",
+      "path": "rust/alloc/",
+      "code": 3890,
+      "deps": []
+    },
+    {
+      "name": "build_error",
+      "kind": "first_party",
+      "path": "rust/build_error.rs",
+      "code": 8,
+      "deps": []
+    },
+    {
+      "name": "bindings",
+      "kind": "first_party",
+      "path": "rust/bindings/",
+      "code": 33,
+      "deps": []
+    },
+    {
+      "name": "kernel",
+      "kind": "first_party",
+      "path": "rust/kernel/",
+      "code": 970,
+      "deps": [
+        "alloc",
+        "build_error",
+        "macros",
+        "bindings"
+      ]
+    }
+  ]
+}
